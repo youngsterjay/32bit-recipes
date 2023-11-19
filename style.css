@@ -27,16 +27,17 @@ body {
 	border-image: url("https://foollovers.com/mat/baf/food/fo32-008-a.gif") 7 fill round;
 	height: 100px;
 	width: 100px;
-	position:absolute;
+	position:relative;
 	text-align: center;
+	display:block;
+	float:left;
 	padding-bottom:30px;
 	text-shadow: -1px 0 #fff, 0 1px #000, 1px 0 #000, 0 -1px #fff, 0 0; 
 	color:  #f9afd1;
 }
 .border{
-	position:absolute;
-	top:110px;
-	left:120px;
+	position:relative;
+	display:inline;
 }
 .cards{
 	background-image: url("index.png");
@@ -45,11 +46,10 @@ body {
 	width:fit-content;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
 	padding:10px;
-	padding-right:80px;
 	background-position: top left;
 	overflow:hidden;
 	right:0px;
-	position:absolute;
+	position:relative;
 }
 .cardslong{
 	background-image: url("indexlong.png");
@@ -60,6 +60,6 @@ body {
 	padding:10px;
 	background-position: top left;
 	overflow:hidden;
-	position:absolute;
-	
+	display:block;
+	position:relative;
 }
