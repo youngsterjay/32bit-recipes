@@ -1,0 +1,65 @@
+body {
+  background-image: url("wood-bg.png");
+  background-color: #6C4A35;
+} 
+@font-face{
+	font-family:biscuit;
+	src:url("Schoolbell-Regular.ttf");
+}
+@font-face{
+	font-family:klee;
+	src:url("KleeOne-Regular.ttf");
+}
+
+.container{
+	width:600px;
+	position:relative;
+	margin: 0 auto;
+}
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+.biscuit {
+	border-width:7px;
+	border-style:solid;
+	border-image: url("https://foollovers.com/mat/baf/food/fo32-008-a.gif") 7 fill round;
+	height: 100px;
+	width: 100px;
+	position:relative;
+	text-align: center;
+	display:block;
+	float:left;
+	padding-bottom:30px;
+	text-shadow: -1px 0 #fff, 0 1px #000, 1px 0 #000, 0 -1px #fff, 0 0; 
+	color:  #f9afd1;
+}
+.border{
+	position:relative;
+	display:inline;
+}
+.cards{
+	background-image: url("index.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	width:fit-content;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	padding:10px;
+	background-position: top left;
+	overflow:hidden;
+	right:0px;
+	position:relative;
+}
+.cardslong{
+	background-image: url("indexlong.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:fit-content;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	padding:10px;
+	background-position: top left;
+	overflow:hidden;
+	display:block;
+	position:relative;
+}
